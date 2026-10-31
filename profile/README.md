@@ -2,17 +2,18 @@
 
 Experiments on AI agents, multi-agent review and safety.
 
-We test how teams of AI agents review and improve each other's work, and publish the plans, data and video source openly.
+- Website: [ablationlab.org](https://ablationlab.org)
+- YouTube: [@AblationLab](https://www.youtube.com/@AblationLab)
 
-## Projects
+## Public repos
 
-- [evolving-review-councils](https://github.com/ablation-lab/evolving-review-councils): evolving AI review councils. The experiment plan and the pilot results.
-- [council-video](https://github.com/ablation-lab/council-video): source for the explainer video.
+- [evolving-review-councils](https://github.com/Ablation-Lab/evolving-review-councils): evolving AI review councils. The experiment plan and the pilot results.
+- [council-video](https://github.com/Ablation-Lab/council-video): source for the explainer video.
+- [research-framework](https://github.com/Ablation-Lab/research-framework): a template for keeping research on one core question.
+- [ablationlab-site](https://github.com/Ablation-Lab/ablationlab-site): source for ablationlab.org.
 
-## Channel
+## About
 
-[youtube.com/@AblationLab](https://youtube.com/@AblationLab)
+Open research: plans, data and video source are published openly. Code is MIT and docs are CC BY 4.0; please credit Ablation Lab.
 
-## Licensing
-
-Code is MIT and docs are CC BY 4.0. Please credit Ablation Lab.
+Ablation Lab is independent and not affiliated with Anthropic.
