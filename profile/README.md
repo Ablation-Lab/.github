@@ -11,6 +11,7 @@ Experiments on AI agents, multi-agent review and safety.
 - [council-video](https://github.com/Ablation-Lab/council-video): source for the explainer video.
 - [research-framework](https://github.com/Ablation-Lab/research-framework): a template for keeping research on one core question.
 - [ablationlab-site](https://github.com/Ablation-Lab/ablationlab-site): source for ablationlab.org.
+- [human-in-the-loop](https://github.com/Ablation-Lab/human-in-the-loop): research on keeping a human in the loop between AI agents.
 
 ## About
 
