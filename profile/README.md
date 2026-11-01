@@ -12,6 +12,7 @@ Experiments on AI agents, multi-agent review and safety.
 - [research-framework](https://github.com/Ablation-Lab/research-framework): a template for keeping research on one core question.
 - [ablationlab-site](https://github.com/Ablation-Lab/ablationlab-site): source for ablationlab.org.
 - [human-in-the-loop](https://github.com/Ablation-Lab/human-in-the-loop): research on keeping a human in the loop between AI agents.
+- [video-review-tool](https://github.com/Ablation-Lab/video-review-tool): a PowerShell tool and Claude Code skill that turns a video or Remotion project into frames, audio checks and a PDF an AI can review.
 
 ## About
 
