@@ -13,7 +13,8 @@ Experiments on AI agents, multi-agent review and safety.
 - [ablationlab-site](https://github.com/Ablation-Lab/ablationlab-site): source for ablationlab.org.
 - [human-in-the-loop](https://github.com/Ablation-Lab/human-in-the-loop): research on keeping a human in the loop between AI agents.
 - [video-review-tool](https://github.com/Ablation-Lab/video-review-tool): a PowerShell tool and Claude Code skill that turns a video or Remotion project into frames, audio checks and a PDF an AI can review.
-
+- [session-keeper](https://github.com/Ablation-Lab/session-keeper):  A small Windows app that shows your running Claude Code sessions, saves them as snapshots and reopens them later in PowerShell windows or Windows Terminal tabs, plus a Claude Code skill to drive it.
+ 
 ## About
 
 Open research: plans, data and video source are published openly. Code is MIT and docs are CC BY 4.0; please credit Ablation Lab.
