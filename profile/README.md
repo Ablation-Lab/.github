@@ -12,9 +12,11 @@ Do councils of AI reviewer agents beat one agent at the same cost, and can they 
 
 When AI agents can talk to each other directly, what does keeping a human in the middle actually buy you? The plan, with the hypotheses and how results are measured, is published in the repo.
 
-**[Research Framework](https://github.com/Ablation-Lab/research-framework)**
+## Windows apps
 
-A lightweight template for keeping a research project on one core question: every new idea is either linked back to it or parked, with a research map, an evidence log and a claims ledger.
+| App | What it does | Type | Platform |
+| --- | --- | --- | --- |
+| [Stowdeck](https://github.com/Ablation-Lab/stowdeck) | A Windows app for your Claude Code sessions: see what's running now and what you worked on in the last 24 hours, 3, 7 or 30 days, save your whole set of sessions as a snapshot and reopen them in one click, each resuming its conversation, and start new sessions. A Terminals tab lists your other terminal windows, such as other CLI agents and dev servers, so they can go in a snapshot too. You can also name sessions and open a project's folder, editor or GitHub page from its row. | Desktop app | Windows 11 |
 
 ## Claude plugins and skills
 
@@ -29,13 +31,12 @@ A lightweight template for keeping a research project on one core question: ever
 | [Langparity](https://github.com/Ablation-Lab/langparity) | Checks translations of your app or docs against their source; it doesn't translate for you. A local script compares each translated file with its source (JSON, Flutter ARB, gettext .po, Java .properties, Apple .strings, Android strings.xml, XLIFF, and Markdown or plain text) and flags missing or added text, broken placeholders and formatting, changed numbers, and text left untranslated. Claude then reads each pair for meaning and tone, such as a formal or informal "you", and suggests a corrected translation for each problem it confirms. | Plugin (skill) | Claude Code |
 | [Tangent Jar](https://github.com/Ablation-Lab/tangent-jar) | Helps you stay on your main task in a Claude Code focus session you start. Tell Claude your main task, and when a side question comes up it parks it in a list in your project for later (asking first unless you said "park this") and nudges you back. You get three tangent tokens per session; after that Claude still parks each tangent, with some playful pushback. | Plugin (skill) | Claude Code |
 
-## Windows apps
-
-| App | What it does | Type | Platform |
-| --- | --- | --- | --- |
-| [Stowdeck](https://github.com/Ablation-Lab/stowdeck) | A Windows app for your Claude Code sessions: see what's running now and what you worked on in the last 24 hours, 3, 7 or 30 days, save your whole set of sessions as a snapshot and reopen them in one click, each resuming its conversation, and start new sessions. A Terminals tab lists your other terminal windows, such as other CLI agents and dev servers, so they can go in a snapshot too. You can also name sessions and open a project's folder, editor or GitHub page from its row. | Desktop app | Windows 11 |
 
 Each repo's README has install steps, and explains exactly what the tool runs, reads and sends.
+
+**[Research Framework](https://github.com/Ablation-Lab/research-framework)**
+
+A lightweight template for keeping a research project on one core question: every new idea is either linked back to it or parked, with a research map, an evidence log and a claims ledger.
 
 **Other repos:** [ablationlab-site](https://github.com/Ablation-Lab/ablationlab-site) (source for ablationlab.org) and [council-video](https://github.com/Ablation-Lab/council-video) (Remotion source for the Evolving Review Councils explainer video).
 
