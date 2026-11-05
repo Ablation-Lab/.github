@@ -1,23 +1,42 @@
 # Ablation Lab
 
-Experiments on AI agents, multi-agent review and safety.
+Open research into how AI agents work, review and fail, plus the tools built along the way.
+
+## Research
+
+**[Evolving Review Councils](https://github.com/Ablation-Lab/evolving-review-councils)**
+
+Do councils of AI reviewer agents beat one agent at the same cost, and can they evolve to get better? Plan, pilot notes and open questions, all published as the work happens.
+
+**[Human in the Loop](https://github.com/Ablation-Lab/human-in-the-loop)**
+
+When AI agents can talk to each other directly, what does keeping a human in the middle actually buy you? The plan is published; nothing has been tested yet.
+
+**[Research Framework](https://github.com/Ablation-Lab/research-framework)**
+
+A lightweight template for keeping a research project on one core question: every new idea is either linked back to it or parked, with a research map, an evidence log and a claims ledger.
+
+## Claude plugins and skills
+
+| Tool | What it does | Platform |
+| --- | --- | --- |
+| [Lore Lookup](https://github.com/Ablation-Lab/claude-lore) | Makes Claude answer questions about Claude, Claude Code and the Claude apps from Anthropic's official docs and release notes, with citations, instead of from memory. | Claude Code and the Claude app |
+| [Cutproof](https://github.com/Ablation-Lab/video-review-tool) | Proofread a video without watching it. Lines up your narration with what's on screen and flags typos, mismatched numbers, text shown too briefly to read, and audio problems, with timestamps. | Windows (needs ffmpeg) |
+| [SessionKeeper](https://github.com/Ablation-Lab/session-keeper) | Save your whole set of Claude Code sessions as a snapshot and restore it in one click. A desktop app plus a Claude plugin Claude can use itself. | Windows |
+
+Each repo's README has install steps, and explains exactly what the tool runs, reads and sends.
+
+**Other repos:** [ablationlab-site](https://github.com/Ablation-Lab/ablationlab-site) (source for ablationlab.org) and [council-video](https://github.com/Ablation-Lab/council-video) (Remotion source for the Evolving Review Councils explainer video).
+
+## Elsewhere
 
 - Website: [ablationlab.org](https://ablationlab.org)
 - YouTube: [@AblationLab](https://www.youtube.com/@AblationLab)
 
-## Public repos
+---
 
-- [evolving-review-councils](https://github.com/Ablation-Lab/evolving-review-councils): evolving AI review councils. The experiment plan and the pilot results.
-- [council-video](https://github.com/Ablation-Lab/council-video): source for the explainer video.
-- [research-framework](https://github.com/Ablation-Lab/research-framework): a template for keeping research on one core question.
-- [ablationlab-site](https://github.com/Ablation-Lab/ablationlab-site): source for ablationlab.org.
-- [human-in-the-loop](https://github.com/Ablation-Lab/human-in-the-loop): research on keeping a human in the loop between AI agents.
-- [video-review-tool](https://github.com/Ablation-Lab/video-review-tool): a PowerShell tool and Claude Code skill that turns a video or Remotion project into frames, audio checks and a PDF an AI can review.
-- [session-keeper](https://github.com/Ablation-Lab/session-keeper):  A small Windows app and Claude Code Skill that shows your running Claude Code sessions, saves them as snapshots and reopens them later in PowerShell windows or Windows Terminal tabs, plus a Claude Code skill to drive it.
-- [Claude-Lore](https://github.com/Ablation-Lab/session-keeper](https://github.com/Ablation-Lab/claude-lore)):  Answers questions about how Claude, Claude Code and the Claude apps (claude.ai on web, desktop and mobile, Claude in Chrome and the other Claude products) works by checking Anthropic's official docs, release notes and help articles and citing them, instead of answering from memory.
-                                                  
-## About
-
-Open research: plans, data and video source are published openly. Code is MIT and docs are CC BY 4.0; please credit Ablation Lab.
+Code is MIT and docs are CC BY 4.0; please credit Ablation Lab.
 
 Ablation Lab is independent and not affiliated with Anthropic.
+
+Research by George, Ablation Lab.
