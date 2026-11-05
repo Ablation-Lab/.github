@@ -14,7 +14,7 @@ Experiments on AI agents, multi-agent review and safety.
 - [human-in-the-loop](https://github.com/Ablation-Lab/human-in-the-loop): research on keeping a human in the loop between AI agents.
 - [video-review-tool](https://github.com/Ablation-Lab/video-review-tool): a PowerShell tool and Claude Code skill that turns a video or Remotion project into frames, audio checks and a PDF an AI can review.
 - [session-keeper](https://github.com/Ablation-Lab/session-keeper):  A small Windows app that shows your running Claude Code sessions, saves them as snapshots and reopens them later in PowerShell windows or Windows Terminal tabs, plus a Claude Code skill to drive it.
-- [Claude-Lore](https://github.com/Ablation-Lab/session-keeper](https://github.com/Ablation-Lab/claude-lore)):  Answers questions about how Claude, Claude Code and the Claude apps (claude.ai on web, desktop and mobile, Claude in Chrome and the other Claude products) work by checking Anthropic's official docs, release notes and help articles and citing them, instead of answering from memory.
+- [Claude-Lore](https://github.com/Ablation-Lab/session-keeper](https://github.com/Ablation-Lab/claude-lore)):  Answers questions about how Claude, Claude Code and the Claude apps (claude.ai on web, desktop and mobile, Claude in Chrome and the other Claude products) works by checking Anthropic's official docs, release notes and help articles and citing them, instead of answering from memory.
                                                   
 ## About
 
