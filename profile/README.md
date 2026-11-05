@@ -1,6 +1,6 @@
 # Ablation Lab
 
-Open research into how AI agents work and review each other, and where they fall short, plus the tools built along the way.
+Open research into how AI agents work, review and communicate with each other, and where they fall short + the tools built along the way.
 
 ## Research
 
