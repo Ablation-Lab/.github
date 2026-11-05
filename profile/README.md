@@ -31,6 +31,7 @@ When AI agents can talk to each other directly, what does keeping a human in the
 | [Langparity](https://github.com/Ablation-Lab/langparity) | Checks translations of your app or docs against their source; it doesn't translate for you. A local script compares each translated file with its source (JSON, Flutter ARB, gettext .po, Java .properties, Apple .strings, Android strings.xml, XLIFF, and Markdown or plain text) and flags missing or added text, broken placeholders and formatting, changed numbers, and text left untranslated. Claude then reads each pair for meaning and tone, such as a formal or informal "you", and suggests a corrected translation for each problem it confirms. | Plugin (skill) | Claude Code |
 | [Tangent Jar](https://github.com/Ablation-Lab/tangent-jar) | Helps you stay on your main task in a Claude Code focus session you start. Tell Claude your main task, and when a side question comes up it parks it in a list in your project for later (asking first unless you said "park this") and nudges you back. You get three tangent tokens per session; after that Claude still parks each tangent, with some playful pushback. | Plugin (skill) | Claude Code |
 
+You can install them all from the [Ablation Lab marketplace](https://github.com/Ablation-Lab/plugins): `/plugin marketplace add Ablation-Lab/plugins`, then `/plugin install <name>@ablation-lab`.
 
 Each repo's README has install steps, and explains exactly what the tool runs, reads and sends.
 
