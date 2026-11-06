@@ -14,13 +14,13 @@ When AI agents can talk to each other directly, what does keeping a human in the
 
 ## Windows apps
 
-| App | What it does | Type | Platform |
+| App | | Type | Platform |
 | --- | --- | --- | --- |
 | [Stowdeck](https://github.com/Ablation-Lab/stowdeck) | A Windows app for your Claude Code sessions: see what's running now and what you worked on in the last 24 hours, 3, 7 or 30 days, save your whole set of sessions as a snapshot and reopen them in one click, each resuming its conversation, and start new sessions. A Terminals tab lists your other terminal windows, such as other CLI agents and dev servers, so they can go in a snapshot too. You can also name sessions and open a project's folder, editor or GitHub page from its row. | Desktop app | Windows 10 or 11 (64-bit) |
 
 ## Claude plugins and skills
 
-| Tool | What it does | Type | Platform |
+| Tool | | Type | Platform |
 | --- | --- | --- | --- |
 | [Council Dial](https://github.com/Ablation-Lab/council-dial) | When you want code, docs or a plan reviewed, Council Dial has Claude run a review council of subagents set up the way you choose: specialised or generalist reviewers, a judge, a pooled list or a majority consensus to combine their findings, and optional debate, sequential and single-reviewer baseline runs. Claude tells you how many subagents a run will use and waits for your yes. Each run's type and results go into a log in your project, so you can compare council types over time. | Plugin (skill) | Claude Code |
 | [Cutproof](https://github.com/Ablation-Lab/video-review-tool) | Turns a rendered video or a Remotion project into a review pack Claude can check without watching it: frames at every scene change and every 2 seconds, the on-screen text, and your narration (from your script or subtitles) lined up with where it plays. It flags typos, numbers that don't match the voiceover, text shown too briefly to read, and audio problems (it measures loudness and flags clipping, clicks and long silences). Each finding comes with its timestamp in the video. | Plugin (skill) | Claude Code (Windows) |
