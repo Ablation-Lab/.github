@@ -1,6 +1,6 @@
 # Ablation Lab
 
-Open research into how AI agents work, review, evolve & communicate with each other + the tools built along the way.
+Open research into how AI agents work, review, evolve and communicate with each other, plus the tools built along the way.
 
 ## Research
 
@@ -16,7 +16,7 @@ When AI agents can talk to each other directly, what does keeping a human in the
 
 | App | What it does | Type | Platform |
 | --- | --- | --- | --- |
-| [Stowdeck](https://github.com/Ablation-Lab/stowdeck) | A Windows app for your Claude Code sessions: see what's running now and what you worked on in the last 24 hours, 3, 7 or 30 days, save your whole set of sessions as a snapshot and reopen them in one click, each resuming its conversation, and start new sessions. A Terminals tab lists your other terminal windows, such as other CLI agents and dev servers, so they can go in a snapshot too. You can also name sessions and open a project's folder, editor or GitHub page from its row. | Desktop app | Windows 11 |
+| [Stowdeck](https://github.com/Ablation-Lab/stowdeck) | A Windows app for your Claude Code sessions: see what's running now and what you worked on in the last 24 hours, 3, 7 or 30 days, save your whole set of sessions as a snapshot and reopen them in one click, each resuming its conversation, and start new sessions. A Terminals tab lists your other terminal windows, such as other CLI agents and dev servers, so they can go in a snapshot too. You can also name sessions and open a project's folder, editor or GitHub page from its row. | Desktop app | Windows 10 or 11 (64-bit) |
 
 ## Claude plugins and skills
 
