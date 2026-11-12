@@ -14,7 +14,7 @@ When AI agents can pass work to each other directly, what does a person in the m
 
 ## Claude plugins and skills
 
-| Tool | What it does | Type | Platform |
+| Tool | | Type | Platform |
 | --- | --- | --- | --- |
 | [Council Dial Lite](https://github.com/Ablation-Lab/council-dial-lite) | The script-free edition of Council Dial. When you want code, docs or a plan reviewed, Claude runs a review council of read-only subagents set up the way you choose: specialised or generalist reviewers, a judge with an appeal, a pooled list or a majority consensus, and optional debate, sequential and single-reviewer baseline runs. A fresh check agent confirms the findings were copied word for word. Claude tells you how many subagents a run will use and waits for your yes, and each run is logged in your project so you can compare council types over time. | Plugin (skill + agent) | Claude Code |
 | [Council Dial](https://github.com/Ablation-Lab/council-dial) | The full edition of Council Dial, with the same councils as Lite plus a local book-keeping script that fills in the briefs, checks the logged counts and keeps the review log. Claude tells you how many subagents a run will use and waits for your yes. Each run's type and results go into a log in your project, so you can compare council types over time. | Plugin (skill + script) | Claude Code (needs Node.js) |
