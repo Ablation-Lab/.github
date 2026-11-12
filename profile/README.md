@@ -1,4 +1,4 @@
-0# Ablation Lab
+# Ablation Lab
 
 Ablation Lab studies how AI agents work together and form review councils to analyse code, docs and plans, how they review and challenge each other's findings and how they pass work between themselves and people. I also look at what changes when agents message each other directly and how they behave, how a person in the loop catches what they miss, and what reaches an agent that nobody intended. The research is open and published as i discover it with all testing included, alongside the plugins and apps that grew out of running the experiments and performing the research. (Assisted by Claude)
 
