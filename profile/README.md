@@ -10,7 +10,7 @@ Do councils of AI reviewer agents beat one agent at the same cost, and can they 
 
 **[Human in the Loop](https://github.com/Ablation-Lab/human-in-the-loop)**
 
-When AI agents can talk to each other directly, what does keeping a human in the middle actually buy you? The plan with the hypotheses and how results are measured are published in the repo.
+When AI agents can talk to each other directly, what role do humans play in this process? The plan with the hypotheses and how results are measured are published in the repo.
 
 ## Windows apps
 
