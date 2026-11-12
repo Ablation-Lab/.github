@@ -6,11 +6,11 @@ Open research into how AI agents work, review, evolve and communicate with each 
 
 **[Evolving Review Councils](https://github.com/Ablation-Lab/evolving-review-councils)**
 
-Do councils of AI reviewer agents beat one agent at the same cost, and can they evolve to get better? All plan, pilot notes & open questions as the research continues
+Do councils of AI reviewers find more real problems than a single reviewer at the same cost, and can they evolve to get better over time? For example a pull request reviewed by three AI reviewers, one checking correctness, one security and one the docs, with a judge ruling on their findings and an independent appeal re-checking anything the judge threw out or downgraded, while a person settles what they still disagree on. The research compares ways of combining findings (a pooled list, a judge, or majority consensus), tests whether the appeal catches the judge's mistakes, and looks at how mixing models and effort levels changes the results. It also tracks what reaches the agents that the council can't control, such as project instructions and connectors. The experiments run through Council Dial, and the plan, run notes and open questions are published as the work happens.
 
 **[Human in the Loop](https://github.com/Ablation-Lab/human-in-the-loop)**
 
-When AI agents can talk to each other directly, what role do humans play in this process? The plan, with the hypotheses and how results are measured, is published in the repo.
+When AI agents can pass work to each other directly, what does a person in the middle still add, and what does it cost? Picture one AI drafting instructions by voice while a person carries them to several coding agents and brings the results back, catching misdirected messages, wrong claims and calls only a human should make along the way. The research compares setups from a person relaying every message to agents messaging each other with the person stepping in only when needed, and measures errors caught, errors introduced, misrouted messages and the time and attention each setup takes. The plan, with its hypotheses and how results are measured, is published in the repo.
 
 ## Claude plugins and skills
 
