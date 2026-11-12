@@ -1,12 +1,12 @@
 # Ablation Lab
 
-Ablation Lab studies how AI agents work together and form review councils to analyse code, docs and plans, how they review and challenge each other's findings and how they pass work between themselves and people. I also look at what changes when agents message each other directly and how they behave, how a person in the loop catches what they miss, and what reaches an agent that nobody intended. The research is open and published as i discover it with all testing included, alongside the plugins and apps that grew out of running the experiments and performing the research. (Assisted by Claude)
+Ablation Lab studies how AI agents work together: how they form review councils to analyse code, docs and plans, how they review and challenge each other's findings, and how they pass work between themselves and people. I also look at how agents behave and what changes when they message each other directly, how a person in the loop catches what they miss, and what reaches an agent that nobody intended. The research is open and published as I go, with all the testing included, alongside the plugins and apps that grew out of running the experiments. (Assisted by Claude)
 
 ## Research
 
 **[Evolving Review Councils](https://github.com/Ablation-Lab/evolving-review-councils)**
 
-Do councils of AI reviewers find more real problems than a single reviewer at the same cost, and can they evolve to get better over time? For example a pull request reviewed by three AI reviewers, one checking correctness, one security and one the docs, with a judge ruling on their findings and an independent appeal re-checking anything the judge threw out or downgraded, while a person settles what they still disagree on. The research compares ways of combining findings (a pooled list, a judge, or majority consensus), tests whether the appeal catches the judge's mistakes, and looks at how mixing models and effort levels changes the results. It also tracks what reaches the agents that the council can't control, such as project instructions and connectors. The experiments run through Council Dial, and the plan, run notes and open questions are published as the work happens.
+Do councils of AI reviewers find more real problems than a single reviewer at the same cost, and can they evolve to get better over time? For example, a pull request reviewed by three AI reviewers, one checking correctness, one security and one the docs, with a judge ruling on their findings and an independent appeal re-checking anything the judge threw out or downgraded, while a person settles what they still disagree on. The research compares ways of combining findings (a pooled list, a judge, or majority consensus), tests whether the appeal catches the judge's mistakes, and looks at how mixing models and effort levels changes the results. It also tracks what reaches the agents that the council can't control, such as project instructions and connectors. The experiments run through Council Dial, and the plan, run notes and open questions are published as the work happens.
 
 **[Human in the Loop](https://github.com/Ablation-Lab/human-in-the-loop)**
 
@@ -14,6 +14,7 @@ When AI agents can pass work to each other directly, what does a person in the m
 
 ## Claude plugins and skills
 
+| | | | |
 | --- | --- | --- | --- |
 | [Council Dial Lite](https://github.com/Ablation-Lab/council-dial-lite) | The script-free edition of Council Dial. When you want code, docs or a plan reviewed, Claude runs a review council of read-only subagents set up the way you choose: specialised or generalist reviewers, a judge with an appeal, a pooled list or a majority consensus, and optional debate, sequential and single-reviewer baseline runs. A fresh check agent confirms the findings were copied word for word. Claude tells you how many subagents a run will use and waits for your yes, and each run is logged in your project so you can compare council types over time. | Plugin (skill + agent) | Claude Code |
 | [Council Dial](https://github.com/Ablation-Lab/council-dial) | The full edition of Council Dial, with the same councils as Lite plus a local book-keeping script that fills in the briefs, checks the logged counts and keeps the review log. Claude tells you how many subagents a run will use and waits for your yes. Each run's type and results go into a log in your project, so you can compare council types over time. | Plugin (skill + script) | Claude Code (needs Node.js) |
