@@ -1,6 +1,6 @@
 # Ablation Lab
 
-Ablation Lab (George) studies how AI agents check each other's work, how they hand work and messages between each other, and how people stay useful in the loop: when a person should step in, what they catch, and what they get wrong. The research looks at review councils with judges and appeals, at what reaches an agent beyond its instructions, and at how the way we talk to agents shapes what they do. The plugins and apps below came out of running those experiments, and they're open source so anyone can use them or repeat the tests.
+Ablation Lab studies how AI agents work together, how they form review councils to analyse code, docs and plans, how they review and challenge each other's findings, and how they pass work between themselves and people. I also look at what changes when agents message each other directly and how they behave, how a person in the loop catches what they miss, and what reaches an agent that nobody intended. The research is published as it happens, alongside the plugins and apps that grew out of running the experiments.
 
 ## Research
 
