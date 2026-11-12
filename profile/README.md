@@ -58,4 +58,4 @@ Code is MIT and docs are CC BY 4.0; please credit Ablation Lab.
 
 Ablation Lab is independent and not affiliated with Anthropic.
 
-Research by George, Ablation Lab.
+Research by George, Ablation Lab. George@ablationlab.org
