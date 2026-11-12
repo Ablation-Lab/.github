@@ -6,7 +6,7 @@ Open research into how AI agents work, review, evolve and communicate with each 
 
 **[Evolving Review Councils](https://github.com/Ablation-Lab/evolving-review-councils)**
 
-Do councils of AI reviewer agents beat one agent at the same cost, and can they evolve to get better? Plan, pilot notes and open questions are all published as the work happens.
+Do councils of AI reviewer agents beat one agent at the same cost, and can they evolve to get better? All plan, pilot notes & open questions as the research continues
 
 **[Human in the Loop](https://github.com/Ablation-Lab/human-in-the-loop)**
 
