@@ -12,18 +12,14 @@ Do councils of AI reviewer agents beat one agent at the same cost, and can they 
 
 When AI agents can talk to each other directly, what role do humans play in this process? The plan with the hypotheses and how results are measured are published in the repo.
 
-## Windows apps
-
-| App | | Type | Platform |
-| --- | --- | --- | --- |
-| [Stowdeck](https://github.com/Ablation-Lab/stowdeck) | A Windows app for your Claude Code sessions: see what's running now and what you worked on in the last 24 hours, 3, 7 or 30 days, save your whole set of sessions as a snapshot and reopen them in one click, each resuming its conversation, and start new sessions. A Terminals tab lists your other terminal windows, such as other CLI agents and dev servers, so they can go in a snapshot too. You can also name sessions and open a project's folder, editor or GitHub page from its row. | Desktop app | Windows 10 or 11 (64-bit) |
-
 ## Claude plugins and skills
 
 | Tool | | Type | Platform |
 | --- | --- | --- | --- |
-| [Council Dial](https://github.com/Ablation-Lab/council-dial) | When you want code, docs or a plan reviewed, Council Dial has Claude run a review council of subagents set up the way you choose: specialised or generalist reviewers, a judge, a pooled list or a majority consensus to combine their findings, and optional debate, sequential and single-reviewer baseline runs. Claude tells you how many subagents a run will use and waits for your yes. Each run's type and results go into a log in your project, so you can compare council types over time. | Plugin (skill) | Claude Code |
+
+| [Council Dial Lite](https://github.com/Ablation-Lab/council-dial-lite) | When you want code, docs or a plan reviewed, Council Dial has Claude run a review council of subagents set up the way you choose: specialized or generalist reviewers, a judge, a pooled list or a majority consensus to combine their findings, and optional debate, sequential and single-reviewer baseline runs. Claude tells you how many subagents a run will use and waits for your yes. Each run's type and results go into a log in your project, so you can compare council types over time. | Plugin (skill) | Claude Code Lite |
 | [Cutproof](https://github.com/Ablation-Lab/video-review-tool) | Turns a rendered video or a Remotion project into a review pack Claude can check without watching it: frames at every scene change and every 2 seconds, the on-screen text, and your narration (from your script or subtitles) lined up with where it plays. It flags typos, numbers that don't match the voiceover, text shown too briefly to read, and audio problems (it measures loudness and flags clipping, clicks and long silences). Each finding comes with its timestamp in the video. | Plugin (skill) | Claude Code (Windows) |
+| [Council Dial](https://github.com/Ablation-Lab/council-dial) | When you want code, docs or a plan reviewed, Council Dial has Claude run a review council of subagents set up the way you choose: specialised or generalist reviewers, a judge, a pooled list or a majority consensus to combine their findings, and optional debate, sequential and single-reviewer baseline runs. Claude tells you how many subagents a run will use and waits for your yes. Each run's type and results go into a log in your project, so you can compare council types over time. | Plugin (skill) | Claude Code |
 | [Lore Lookup](https://github.com/Ablation-Lab/claude-lore) | When you ask about Claude, Claude Code or the Claude apps, it has Claude look up the answer in Anthropic's online docs, help pages. release notes and reply with links to the pages it used, instead of answering from memory. If something can't be confirmed there, Claude says so. | Plugin (skill) | Claude Code and the Claude app |
 | [Seaready](https://github.com/Ablation-Lab/seaready) | Checks a plugin repo before you submit it to Anthropic's plugin directory, to catch many of the problems the portal would block or hold it for: plugin names already taken, identifiers that look like credentials, line-ending rules that stop validation, files written, registry changes or network requests the README doesn't mention, chat-history reads, hidden Unicode, and personal emails in the git history. It then drafts your answers for the submission form. | Plugin (skill) | Claude Code |
 | [Stowdeck](https://github.com/Ablation-Lab/stowdeck) | Gives Claude a skill and commands to list your running and recent Claude Code sessions and saved snapshots, save a snapshot and open the Stowdeck app. Needs the Stowdeck Windows app. | Plugin (skill + commands) | Claude Code (Windows) |
@@ -32,6 +28,12 @@ When AI agents can talk to each other directly, what role do humans play in this
 | [Tangent Jar](https://github.com/Ablation-Lab/tangent-jar) | Helps you stay on your main task in a Claude Code focus session you start. Tell Claude your main task, and when a side question comes up it parks it in a list in your project for later (asking first unless you said "park this") and nudges you back. You get three tangent tokens per session; after that Claude still parks each tangent, with some playful pushback. | Plugin (skill) | Claude Code |
 
 You can install them all from the [Ablation Lab marketplace](https://github.com/Ablation-Lab/plugins): `/plugin marketplace add Ablation-Lab/plugins`, then `/plugin install <name>@ablation-lab`.
+
+## Windows apps
+
+| App | | Type | Platform |
+| --- | --- | --- | --- |
+| [Stowdeck](https://github.com/Ablation-Lab/stowdeck) | A Windows app for your Claude Code sessions: see what's running now and what you worked on in the last 24 hours, 3, 7 or 30 days, save your whole set of sessions as a snapshot and reopen them in one click, each resuming its conversation, and start new sessions. A Terminals tab lists your other terminal windows, such as other CLI agents and dev servers, so they can go in a snapshot too. You can also name sessions and open a project's folder, editor or GitHub page from its row. | Desktop app | Windows 10 or 11 (64-bit) |
 
 Each repo's README has install steps, and explains exactly what the tool runs, reads and sends.
 
