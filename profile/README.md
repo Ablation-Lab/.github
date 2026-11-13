@@ -1,6 +1,6 @@
 # Ablation Lab
 
-Ablation Lab performs independent research on AI agents, we form review councils that analyse code, documents, plans and analyse their behavior, efficiency and quality of reviews. We also look at how they review and challenge each other's findings and how they pass work between themselves and people. Our next research looks at agent behavior, what changes when they message each other directly, how a person in the loop catches what agents miss and what reaches an agent that nobody intended them to see. The research is open and published as I go, with all the testing included, alongside the plugins and apps that grew out of running the experiments. (Assisted by Claude)
+Ablation Lab performs independent research on AI agents, our current project forms and tests review councils that analyse code, documents, plans and various data, analyzing their behavior, efficiency and quality of output. We also look at how they review and challenge each other's findings and how they pass work between themselves and people. Our next research looks at agent behavior, what changes when they message each other directly, how a person in the loop catches what agents miss and what reaches an agent that nobody intended them to see. The research is open and published as I go, with all the testing included, alongside the plugins and apps that grew out of running the experiments. (Assisted by Claude)
 
 ## Research
 
